@@ -10,8 +10,6 @@ class App < Sinatra::Base
      params.to_s
   end 
   
-  get '/food' do
-    erb :food
-  end
+  
 
 end
